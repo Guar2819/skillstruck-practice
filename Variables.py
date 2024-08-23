@@ -1,12 +1,10 @@
-# Take a list of names as input from the user
-names = input("Enter the names separated by commas: ").split(',')
+def start_game():
 
-# Strip any extra whitespace from the names
-names = [name.strip() for name in names]
+    user_input = input("Do you want to start the game? (yes/no): ").strip().lower()
+    
+    if user_input == "yes":
+        print("Initialization Complete")
+    else:
+        print("Initialization Failed")
 
-# Find the bronze medalist (the third person in the list)
-if len(names) >= 3:
-    bronze_medalist = names[2]
-    print(f"The bronze medal goes to: {bronze_medalist}")
-else:
-    print("Not enough participants to determine a bronze medalist.")
+start_game()
