@@ -1,10 +1,8 @@
-def start_game():
+# Create a sample list named harvest
+harvest = ["corn", "squash", "tomato", "pumpkin", "apple"]
 
-    user_input = input("Do you want to start the game? (yes/no): ").strip().lower()
-    
-    if user_input == "yes":
-        print("Initialization Complete")
-    else:
-        print("Initialization Failed")
+# Remove a specific item, e.g., "squash"
+harvest.remove("squash")
 
-start_game()
+# Print the final list to see the result
+print(harvest)
