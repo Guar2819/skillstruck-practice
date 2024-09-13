@@ -1,5 +1,7 @@
-# my_list = [int(n) for n in input("Input a list of numbers: ").split()]  # int() converts a string to an int,  for - in loops the list, input prompts user, .split() converts a string to a list
+skills = ["Piano", "Soccer", "Coding", "Cooking", "Writing"]
 
-("Input a list of beans: ") list_of_beans
-print(list_of_beans)
-print("Hello World")
+skill = input("Tell me a skill you are not willing to try")
+
+skills.remove(skill)
+
+print(skills)
