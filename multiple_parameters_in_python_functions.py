@@ -1,5 +1,11 @@
-#def breads(first, second):
-       #print("I will have to go buy some " + first + " and " + "second")
+year = int(input("What year?"))
+
+def leap_year(choice):
+    if choice % 4 == 0 and choice % 100 !=0:
+        print("Leap year!")
+    else:
+        print("Not a leap year.")
 
 
-#breads("rolls", "baguettes")
+
+leap_year(year)
