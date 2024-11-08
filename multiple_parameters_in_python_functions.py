@@ -1,11 +1,15 @@
-year = int(input("What year?"))
+dictionary = {
+  7: "first",
+  3: "second",
+  4: "third",
+  8: "fourth",
+  9: "fifth",
+}
 
-def leap_year(choice):
-    if choice % 4 == 0 and choice % 100 !=0:
-        print("Leap year!")
+my_list = [int(n) for n in input().split()]
+
+for num in my_list:
+    if num in dictionary:
+        print(dictionary[num])
     else:
-        print("Not a leap year.")
-
-
-
-leap_year(year)
+        print("Not found")
