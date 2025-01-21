@@ -1,15 +1,9 @@
-dictionary = {
-  7: "first",
-  3: "second",
-  4: "third",
-  8: "fourth",
-  9: "fifth",
-}
+#fruit1 = input("Enter the first fruit: ")
+#fruit2 = input("Enter the second fruit: ")
+#fruit3 = input("Enter the third fruit: ")
 
-my_list = [int(n) for n in input().split()]
+#def print_fruits(fruit1, fruit2, fruit3):
 
-for num in my_list:
-    if num in dictionary:
-        print(dictionary[num])
-    else:
-        print("Not found")
+    #print(fruit1 + fruit2 + fruit3)
+
+#print_fruits(fruit1, fruit2, fruit3)
