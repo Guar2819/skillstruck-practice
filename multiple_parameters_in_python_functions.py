@@ -1,9 +1,5 @@
-#fruit1 = input("Enter the first fruit: ")
-#fruit2 = input("Enter the second fruit: ")
-#fruit3 = input("Enter the third fruit: ")
+movies = 16
 
-#def print_fruits(fruit1, fruit2, fruit3):
-
-    #print(fruit1 + fruit2 + fruit3)
-
-#print_fruits(fruit1, fruit2, fruit3)
+while movies > 12
+   print(movies)
+   movies -= 1
