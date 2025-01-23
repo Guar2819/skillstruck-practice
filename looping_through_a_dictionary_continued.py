@@ -29,3 +29,16 @@
 ## TO DO: 
 ## go look at the challenges and see if there was
 ## prior code submitted
+
+
+
+# dictionary = { 7: "first", 3: "second", 4: "third", 8: "fourth", 9: "fifth" }
+
+# my_list = [int(n) for n in input().split()]
+
+# for element in my_list:
+#     if element in dictionary:
+#         print("Yes")
+#     else:
+#         print("No")
+
