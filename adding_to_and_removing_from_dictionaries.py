@@ -27,3 +27,14 @@
 #trees.pop(tree_to_remove, None)  # 
 
 #print(trees)
+
+
+# dictionary = { 7: "first", 3: "second", 4: "third", 8: "fourth", 9: "fifth" }
+
+# my_list = [int(n) for n in input().split()]
+
+# for element in my_list:
+#     if element in dictionary:
+#         print("Yes")
+#     else:
+#         print("No")
