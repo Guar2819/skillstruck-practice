@@ -38,3 +38,12 @@
 #         print("Yes")
 #     else:
 #         print("No")
+
+# user_input = int(input("How many keys in your dictionary? "))
+
+# user_dict = {}
+
+# for element in range(user_input):
+#     user_dict[element] = element ** 2
+
+# print(user_dict)
