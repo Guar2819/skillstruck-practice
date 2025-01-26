@@ -1,2 +1,6 @@
-desserts = ("candy", "popcorn", "soda", "cake")
-print(desserts[-1])
+len(file.readlines())
+file = open("characters.txt", "r")
+print(file.read(user_input))
+print(file.readline())
+print(file.readline())
+file.close()
