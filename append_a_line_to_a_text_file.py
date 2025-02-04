@@ -1,8 +1,16 @@
-file = open("characters.txt", "a")
-file.write("I love programming!")
-file.close()
+# file = open("characters.txt", "a")
 
-file = open("characters.txt", "r")
-print(file.read())
-file.close()
-filename.write = 
+# file.write("From your Pen Pal")
+# file.close()
+
+# file = open("characters.txt", "r")
+# print(file.read())
+
+
+# file = open("characters.txt", "a")
+
+# file.write("Quote was said by Gandhi")
+# file.close()
+
+# file = open("characters.txt", "r")
+# print(file.read())
