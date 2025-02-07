@@ -8,14 +8,15 @@
 
 # print(my_list)
 
-# my_list = [[0, 1, 2], [10, 15, 20], [100, 200, 300], [5, 6, 7]]
-# rows = 4
-# cols = 3
+x = int(input("What is the first number?")) 
+y = int(input("What is the second number?"))
+z = int(input("What is the third number?"))
 
-# answer = int(input("What do you want to multiply by?"))
+my_list = [[0, 1, x], [10, 15, y], [100, 200, 300], [5, 6, z]]
+rows = 4
+cols = 3
 
-# for i in range(rows):
-#     for j in range(cols):
-#         my_list[i][j] *= answer
+largest = 0
 
-# print(my_list)
+for i in range():
+    for j in rangecols):
