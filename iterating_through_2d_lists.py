@@ -8,15 +8,12 @@
 
 # print(my_list)
 
-x = int(input("What is the first number?")) 
-y = int(input("What is the second number?"))
-z = int(input("What is the third number?"))
+# x = int(input("What is the first number? "))
+# y = int(input("What is the second number? "))
+# z = int(input("What is the third number? "))
 
-my_list = [[0, 1, x], [10, 15, y], [100, 200, 300], [5, 6, z]]
-rows = 4
-cols = 3
+# my_list = [[0, 1, x], [10, 15, y], [100, 200, 300], [5, 6, z]]
 
-largest = 0
+# largest_number = max(max(row) for row in my_list)
 
-for i in range():
-    for j in rangecols):
+# print(largest_number)
