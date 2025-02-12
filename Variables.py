@@ -1,15 +1,16 @@
-# Creating a dictionary with words as keys and their definitions as values
-#dictionary = {
-#    "apple": "A fruit that is typically red, green, or yellow.",
-#    "banana": "A long, curved fruit with a yellow skin.",
-#    "cat": "A small domesticated carnivorous mammal.",
-#    "dog": "A domesticated carnivorous mammal, typically known as a pet.",
-#    "elephant": "A large herbivorous mammal with a trunk.",
-#    "flower": "The reproductive structure of a plant.",
-#    "giraffe": "A tall African mammal with a very long neck.",
-#    "house": "A building for human habitation.",
-#    "igloo": "A dome-shaped shelter built from blocks of ice.",
-#    "jacket": "A mid-stomach length garment for the upper body."
-}
+# main_course = "Spaghetti Bolognese"
+# side = "Garlic Bread"
+# drink = "Red Wine"
+# print(main_course)
+# print(side)
+# print(drink)
 
-#print(dictionary)
+# how_much_wood_would_a_wood_chuck_chuck_if_a_wood_chuck_could_chuck_wood = 1
+# print(how_much_wood_would_a_wood_chuck_chuck_if_a_wood_chuck_could_chuck_wood)
+
+main_course = "Spaghetti Bolognese"
+side = "Garlic Bread"
+drink = "Red Wine"
+print(main_course)
+print(side)
+print(drink)
